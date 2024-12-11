@@ -12,7 +12,7 @@ import {
   Rubik_700Bold
 } from '@expo-google-fonts/rubik'
 
-import Loading from '@/components/loading'
+import { Loading } from '@/components/loading'
 
 const Layout = () => {
   const [fontsLoaded] = useFonts({

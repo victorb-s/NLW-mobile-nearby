@@ -3,7 +3,7 @@ import { ActivityIndicator } from 'react-native'
 import { styles } from './styles'
 import { colors } from '@/styles/theme'
 
-const Loading = () => {
+export const Loading = () => {
   return (
     <ActivityIndicator
         color={colors.green.base}
@@ -11,5 +11,3 @@ const Loading = () => {
     />
   )
 }
-
-export default Loading
